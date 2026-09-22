@@ -1,0 +1,179 @@
+{
+  "heroBlock": {
+    "badge": "ISO 9001:2015 CERTIFIED",
+    "controls": {
+      "prev": "Previous slide",
+      "next": "Next slide",
+      "goTo": "Go to {{label}}"
+    },
+    "slides": {
+      "build": {
+        "title": "BUILD WITH PRECISION",
+        "description": "Delivering tailored, high-quality industrial facility construction solutions compliant with the strictest safety and industry standards.",
+        "buttonText": "View Construction Services",
+        "navLabel": "Build"
+      },
+      "supply": {
+        "title": "SUPPLY CHAIN EXCELLENCE",
+        "description": "Strategic sourcing and equipment rentals ensuring timely, cost-effective acquisition of quality materials to keep operations moving.",
+        "buttonText": "View Procurement",
+        "navLabel": "Supply"
+      },
+      "maintain": {
+        "title": "MAINTAIN RELIABILITY",
+        "description": "Expert diagnostics, pressure management, and advanced NDT services minimizing downtime and maximizing the safety of critical equipment.",
+        "buttonText": "View Maintenance",
+        "navLabel": "Maintain"
+      }
+    }
+  },
+
+  "aboutTeaser": {
+    "subtitle": "Who We Are",
+    "titleLine1": "INTEGRATED SOLUTIONS",
+    "titleLine2": "FOR HEAVY INDUSTRY",
+    "paragraph1": "Rysgally Gün, an ISO 9001:2015 certified company, delivers comprehensive solutions for Turkmenistan's oil & gas, power, and petrochemical industries. We specialize in construction, procurement, maintenance, precision machining, and advanced inspection services.",
+    "paragraph2": "As a proud Turkmen company, we are committed to sustainable development. By adhering to the strictest national and international standards, we minimize operational risks and completely eliminate unnecessary downtime for our clients.",
+    "feature1": "Local Expertise",
+    "feature2": "Global Standards",
+    "imageAlt": "Industrial facility operated by Rysgally Gün",
+    "certificationLabel": "ISO CERTIFIED",
+    "commitmentSubtitle": "Safety & Efficiency",
+    "commitmentStatement": "Minimizing risks and downtime through uncompromising precision.",
+    "standards": {
+      "iso": {
+        "value": "9001",
+        "label": "ISO Certified"
+      },
+      "api": {
+        "value": "API",
+        "label": "Compliance"
+      },
+      "asme": {
+        "value": "ASME",
+        "label": "Standards"
+      }
+    }
+  },
+
+  "featuredServices": {
+    "subtitle": "Our Capabilities",
+    "title": "CORE INDUSTRIAL SERVICES",
+    "description": "Delivering integrated, highly certified solutions designed to minimize risks, eliminate downtime, and optimize performance across your entire operation.",
+    "buttonViewAll": "View All Services",
+    "buttonExplore": "Explore Service",
+    "services": {
+      "construction": {
+        "tag": "BUILD",
+        "title": "Facility Construction",
+        "description": "Tailored, high-quality construction solutions for building robust and efficient industrial facilities compliant with stringent safety standards."
+      },
+      "procurement": {
+        "tag": "SUPPLY",
+        "title": "Strategic Procurement",
+        "description": "Strategic sourcing and supply chain solutions for the timely, cost-effective acquisition of critical quality materials and equipment."
+      },
+      "maintenance": {
+        "tag": "MAINTAIN",
+        "title": "Maintenance & NDT",
+        "description": "Expert diagnostics, pressure management, and advanced Non-Destructive Testing (NDT) to ensure the reliable performance of critical equipment."
+      }
+    }
+  },
+
+  "companyCompass": {
+    "subtitle": "Driving Force",
+    "titleStart": "IGNITE GLOBAL",
+    "titleAccent": "PROGRESS",
+    "description": "We are dedicated to building lasting partnerships by delivering tailored industrial solutions that optimize performance and keep operations running smoothly.",
+    "points": {
+      "aspiration": {
+        "title": "Our Aspiration",
+        "description": "To lead the industry with unmatched service quality, focusing on innovation, precision, and absolute reliability across all operations."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be the leading provider of reliable industrial services, delivering innovative solutions that maximize performance, safety, and efficiency for our clients."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description": "To deliver top-tier technical, inspection, and maintenance support, ensuring seamless operations, rigorous safety, and high performance."
+      }
+    }
+  },
+
+  "CalculatorBlock": {
+    "badge": "Instant Estimate",
+    "headingStart": "Transparent pricing.",
+    "headingAccent": "No hidden fees.",
+    "step1Title": "1. Select Services",
+    "step2Title": "2. Specify Details",
+    "rangeMin": "20 m²",
+    "rangeMax": "500+ m²",
+    "sidebarTitle": "Your Estimate",
+    "summaryArea": "Area-Based Services",
+    "summaryItems": "Specific Items & Furniture",
+    "estimatedTotal": "Estimated Total",
+    "disclaimer": "*This is an approximate estimate. Services requiring 'agreement' (like Offices or Windows) are not calculated in this total. Final price is confirmed before work begins.",
+    "ctaWhatsApp": "Book via WhatsApp",
+    "ctaWhatsAppShort": "Book Now",
+    "priceByAgreement": "By Agreement",
+    "none": "None",
+    "msgGreet": "Hello Hilli Tämizlik!",
+    "msgIntro": "I used your website calculator and would like to request a booking:",
+    "msgServices": "Selected Services",
+    "msgDetails": "Details & Quantities",
+    "msgTotal": "Estimated Total",
+    "msgOutro": "Is this available?",
+    "services": {
+      "routine": {
+        "label": "Routine / Maintenance",
+        "desc": "Standard cleaning"
+      },
+      "deep": {
+        "label": "Deep Cleaning",
+        "desc": "Thorough and detailed"
+      },
+      "construction": {
+        "label": "Post-Construction",
+        "desc": "After renovation cleaning"
+      },
+      "offices": {
+        "label": "Offices & Corporate",
+        "desc": "Customized cleaning plans"
+      },
+      "dry_cleaning": {
+        "label": "Dry Cleaning",
+        "desc": "Furniture and carpets"
+      },
+      "pressure_washing": {
+        "label": "Pressure Washing",
+        "desc": "Yards, granite, tiles"
+      },
+      "facade": {
+        "label": "Facade Cleaning",
+        "desc": "Building exterior wash"
+      },
+      "chandelier": {
+        "label": "Chandelier Cleaning",
+        "desc": "All sizes and complexities"
+      },
+      "window": {
+        "label": "Window Cleaning",
+        "desc": "For all window sizes"
+      }
+    },
+    "items": {
+      "propertySqm": "Property Size",
+      "carpet": "Carpet Washing",
+      "sofa2": "2-Seater Sofa",
+      "sofa3": "3-Seater Sofa",
+      "sofa_set": "Sofa Set (3+2+1)",
+      "mattress_big": "Large Mattress",
+      "mattress_small": "Small / Kids Mattress",
+      "chand_small": "Small Chandelier",
+      "chand_med": "Medium Chandelier",
+      "chand_large": "Large Chandelier"
+    }
+  }
+}

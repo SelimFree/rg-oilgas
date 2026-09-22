@@ -1,0 +1,230 @@
+{
+  "ServiceManifestoBlock": {
+    "badge": "Our Services",
+    "inclusionsTitle": "Standard Inclusions",
+    "before": "Before",
+    "after": "After",
+    "services": {
+      "routine": {
+        "label": "Routine / Maintenance Cleaning",
+        "title": "Consistent care for a permanently polished environment.",
+        "description": "We provide scheduled maintenance cleaning that keeps residential and commercial spaces fresh, hygienic, and presentable throughout the week. Our trained team follows a detailed cleaning plan tailored to your property, schedule, and high-traffic areas.",
+        "imageBeforeAlt": "Routine maintenance before state showing light surface dust",
+        "imageAfterAlt": "Routine maintenance after state showing a fresh, presentable environment",
+        "checklist": {
+          "dusting": "Dusting of furniture and accessible surfaces",
+          "vacuuming": "Vacuuming of carpets, rugs, and upholstery",
+          "mopping": "Sweeping and mopping of hard floors",
+          "kitchen": "Kitchen surface and appliance exterior cleaning",
+          "bathroom": "Bathroom cleaning and sanitization",
+          "mirrors": "Mirror and glass surface polishing",
+          "waste": "Waste collection and bin-liner replacement",
+          "handles": "Door handle and high-touch point disinfection",
+          "sills": "Interior window-sill cleaning",
+          "inspection": "Final inspection and space presentation"
+        },
+        "addons": {}
+      },
+      "deep": {
+        "label": "Deep Cleaning",
+        "title": "Intensive cleaning beyond the visible surface.",
+        "description": "Our deep-cleaning service targets accumulated dirt, grease, limescale, dust, and hidden residue throughout the property. We clean overlooked areas, detailed fixtures, and hard-to-reach spaces to restore a noticeably fresher and more hygienic environment.",
+        "imageBeforeAlt": "Deep Cleaning before state showing hidden residue and accumulated dirt",
+        "imageAfterAlt": "Deep Cleaning after state showing fully restored clean property",
+        "checklist": {
+          "dusting": "Detailed surface and furniture dust removal",
+          "furniture": "Behind and beneath furniture cleaning",
+          "degreasing": "Intensive kitchen degreasing",
+          "descaling": "Bathroom descaling and sanitization",
+          "skirting": "Skirting board and corner detailing",
+          "doors": "Door, frame, and handle cleaning",
+          "cabinets": "Interior cabinet and drawer cleaning",
+          "vents": "Vent, grille, and accessible fixture dusting",
+          "floors": "Floor scrubbing and edge cleaning",
+          "spots": "Stain and residue spot treatment",
+          "windows": "Interior window and glass cleaning",
+          "inspection": "Final hygiene and quality inspection"
+        },
+        "addons": {}
+      },
+      "construction": {
+        "label": "Post-Construction / Renovation Cleaning",
+        "title": "Precision removal of construction dust and residue.",
+        "description": "We transform newly built or renovated spaces into clean, safe, and presentation-ready environments. Our team removes fine construction dust, paint marks, adhesive residue, packaging debris, and surface contamination without damaging newly installed finishes.",
+        "imageBeforeAlt": "Post-Construction showing fine dust, packaging, and debris",
+        "imageAfterAlt": "Post-Construction turn-key presentation-ready configuration",
+        "checklist": {
+          "extraction": "Fine construction dust extraction",
+          "detailing": "Floor, wall, and skirting board detailing",
+          "paint": "Paint and plaster spot removal",
+          "residue": "Adhesive, silicone, and label residue treatment",
+          "windows": "Window, frame, and track cleaning",
+          "cabinets": "Cabinet and wardrobe interior cleaning",
+          "fixtures": "Fixture, fitting, and hardware polishing",
+          "tile": "Tile and grout residue removal",
+          "doors": "Door and frame detailing",
+          "exterior": "Balcony and exterior access-area cleaning",
+          "packaging": "Packaging and light debris collection",
+          "handover": "Final handover inspection"
+        },
+        "addons": {}
+      },
+      "corporate": {
+        "label": "Offices and Corporate Cleaning",
+        "title": "Professional cleaning for productive workplaces.",
+        "description": "We maintain clean, organized, and hygienic working environments that reflect the standards of your business. Services can be arranged before, during, or after working hours, with customized schedules for offices of every size.",
+        "imageBeforeAlt": "Unclean workspace office layout desk",
+        "imageAfterAlt": "Pristine professional corporate layout environment",
+        "checklist": {
+          "desks": "Desk and workstation surface cleaning",
+          "furniture": "Office furniture dusting",
+          "floors": "Carpet vacuuming and hard-floor maintenance",
+          "reception": "Meeting room and reception cleaning",
+          "pantry": "Pantry and shared-kitchen cleaning",
+          "washrooms": "Washroom cleaning and sanitization",
+          "disinfection": "High-touch point disinfection",
+          "glass": "Internal glass partition cleaning",
+          "waste": "Waste collection and bin management",
+          "common": "Lift, corridor, and common-area cleaning",
+          "supply": "Supply monitoring upon request",
+          "inspection": "Scheduled quality-control inspections"
+        },
+        "addons": {}
+      },
+      "drycleaning": {
+        "label": "Dry Cleaning",
+        "title": "Low-moisture treatment for delicate textiles.",
+        "description": "Our professional dry-cleaning process refreshes moisture-sensitive carpets, rugs, upholstery, curtains, and fabric surfaces without excessive saturation. Specialized cleaning compounds help lift surface oils, dust, odours, and localized stains while protecting delicate fibres and finishes.",
+        "imageBeforeAlt": "Delicate textiles with embedded dust and stains",
+        "imageAfterAlt": "Refreshed and realigned pristine textile fabric",
+        "checklist": {
+          "assessment": "Detailed textile condition assessment",
+          "vacuuming": "Industrial dry vacuuming",
+          "pretreatment": "Targeted stain pre-treatment",
+          "compound": "Low-moisture cleaning compound application",
+          "agitation": "Controlled mechanical fibre agitation",
+          "spot": "Fabric-safe spot cleaning",
+          "odour": "Odour neutralization treatment",
+          "allergen": "Allergen and loose-dander extraction",
+          "fibre": "Fibre and pile realignment",
+          "finishing": "Rapid, low-moisture finishing",
+          "detailing": "Edge, corner, and crevice detailing",
+          "inspection": "Final textile inspection"
+        },
+        "addons": {}
+      },
+      "pressure": {
+        "label": "Pressure Washing",
+        "title": "High-pressure restoration for durable stone and tiled surfaces.",
+        "description": "We remove embedded dirt, atmospheric residue, algae, staining, and surface buildup from granite slabs, paving stones, ceramic tiles, and marble. Pressure levels and cleaning methods are carefully adjusted according to the material and condition of each surface.",
+        "imageBeforeAlt": "Stone surface with algae and atmospheric buildup",
+        "imageAfterAlt": "Restored pristine paving stone surface",
+        "checklist": {
+          "assessment": "Surface condition and material assessment",
+          "debris": "Loose debris and dust clearance",
+          "pretreatment": "Targeted stain pre-treatment",
+          "washing": "Controlled pressure washing",
+          "grout": "Grout and joint-line cleaning",
+          "algae": "Algae and organic buildup removal",
+          "oil": "Oil and traffic-mark treatment",
+          "detailing": "Edge and corner detailing",
+          "sensitive": "Low-pressure treatment for sensitive stone",
+          "rinsing": "Surface rinsing and residue removal",
+          "protection": "Surrounding-area protection",
+          "inspection": "Final cleanliness inspection"
+        },
+        "addons": {}
+      },
+      "facade": {
+        "label": "Exterior Building and Facade Cleaning",
+        "title": "Professional exterior care from ground level to height.",
+        "description": "We restore the appearance of building exteriors by removing dust, pollution, water marks, organic buildup, and weather-related staining. Our team selects appropriate equipment and methods for glass, stone, metal, cladding, render, and other facade materials.",
+        "imageBeforeAlt": "Building exterior with weather staining and pollution marks",
+        "imageAfterAlt": "Restored clean building exterior facade",
+        "checklist": {
+          "assessment": "Exterior surface condition assessment",
+          "dust": "Dust and atmospheric residue removal",
+          "washing": "Facade washing and controlled rinsing",
+          "glass": "Glass and exterior window cleaning",
+          "cladding": "Cladding and panel cleaning",
+          "stone": "Stone and rendered-surface treatment",
+          "marks": "Water-mark and pollution-stain treatment",
+          "ledge": "Ledge, frame, and architectural-detail cleaning",
+          "algae": "Algae and organic buildup removal",
+          "entrance": "Ground-level entrance detailing",
+          "protection": "Surrounding-area protection",
+          "inspection": "Final exterior inspection"
+        },
+        "addons": {}
+      },
+      "chandelier": {
+        "label": "Chandelier Cleaning",
+        "title": "Detailed care for chandeliers of every type and size.",
+        "description": "We clean chandeliers with precision, protecting delicate crystals, glass pieces, metal frames, decorative elements, and electrical components. Each fixture is assessed individually and cleaned using controlled methods suitable for its material, size, and installation height.",
+        "imageBeforeAlt": "Chandelier with dusty crystals and dull metal frame",
+        "imageAfterAlt": "Brilliant chandelier with polished crystals and alignment",
+        "checklist": {
+          "assessment": "Fixture condition and access assessment",
+          "protection": "Surrounding furniture and floor protection",
+          "crystal": "Individual crystal and glass cleaning",
+          "metal": "Frame and decorative metal dusting",
+          "detailing": "Arm, chain, and fitting detailing",
+          "residue": "Safe removal of fingerprints and residue",
+          "polishing": "Non-abrasive polishing",
+          "bulbs": "Bulb exterior cleaning where accessible",
+          "alignment": "Crystal alignment and presentation",
+          "highlevel": "High-level access equipment when required",
+          "moisture": "Controlled moisture application",
+          "inspection": "Final lighting and appearance inspection"
+        },
+        "addons": {}
+      },
+      "windows": {
+        "label": "Window Cleaning",
+        "title": "Streak-free clarity for windows of all types and sizes.",
+        "description": "We professionally clean residential, commercial, interior, exterior, high-level, and specialist window systems. Our methods remove dust, fingerprints, water marks, pollution, and environmental residue while protecting glass, frames, seals, and surrounding finishes.",
+        "imageBeforeAlt": "Window glass with fingerprints and water marks",
+        "imageAfterAlt": "Crystal clear streak-free window glass",
+        "checklist": {
+          "glass": "Interior and exterior glass cleaning",
+          "frames": "Frame and sill detailing",
+          "tracks": "Window-track and channel cleaning",
+          "fingerprints": "Fingerprint and grease removal",
+          "marks": "Water-mark and mineral-residue treatment",
+          "detailing": "Edge and corner detailing",
+          "doors": "Glass-door and partition cleaning",
+          "skylights": "Skylight cleaning where accessible",
+          "highlevel": "High-level window cleaning when required",
+          "polishing": "Non-abrasive glass polishing",
+          "protection": "Surrounding-surface protection",
+          "inspection": "Final streak and clarity inspection"
+        },
+        "addons": {}
+      }
+    }
+  },
+
+  "ProcessGuidelineBlock": {
+    "badge": "How It Works",
+    "headingStart": "Zero friction.",
+    "headingAccent": "Absolute precision.",
+    "stepPrefix": "STEP",
+    "ctaTitle": "Ready to restore your space?",
+    "ctaDescription": "Skip the back-and-forth emails. Use our interactive calculator to build your exact package and secure your priority booking immediately.",
+    "ctaButton": "Instant Estimate",
+    "steps": {
+      "step-1": {
+        "title": "Instant Estimate",
+        "description": "Use our transparent calculator to get an immediate quote based on your exact square footage and required service level."
+      },
+      "step-2": {
+        "title": "Coordinate & Confirm",
+        "description": "Select a date that fits your schedule. Our operations team will verify the details and dispatch our vetted professionals."
+      },
+      "step-3": {
+        "title": "Exceptional Execution",
+        "description": "We arrive fully equipped with industrial machinery and botanical solutions to restore your space to pristine condition."
+      }
+    }
+  }
+}
