@@ -1,10 +1,5 @@
 import { useTranslation } from "react-i18next";
 import { useDocumentTitle } from "../hooks/useDocumentTitle";
-import { MissionBlock } from "../components/blocks/MissionBlock";
-import { SecurityVettingBlock } from "../components/blocks/SecurityVettingBlock";
-import { EquipmentBlock } from "../components/blocks/EquipmentBlock";
-import { RecommendationsBlock } from "../components/blocks/RecommendationsBlock";
-import { PartnersBlock } from "../components/blocks/PartnersBlock";
 
 export default function CareersPage() {
 
@@ -13,11 +8,6 @@ export default function CareersPage() {
 
     return (
         <div className="flex flex-col">
-            <MissionBlock />
-            <SecurityVettingBlock />
-            <EquipmentBlock />
-            <RecommendationsBlock />
-            <PartnersBlock />
         </div>
     );
 }
