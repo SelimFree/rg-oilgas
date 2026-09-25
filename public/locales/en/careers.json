@@ -1,0 +1,17 @@
+{
+  "careersPage": {
+    "header": {
+      "title": "Join Our Team",
+      "subtitle": "Engineering & Technical Careers"
+    }
+  },
+  "careersContentBlock": {
+    "title": "Forge Your Career in Industry",
+    "description": "We are continually seeking elite technical talent—engineers, technicians, and project specialists—to execute complex infrastructure projects. If you are committed to uncompromising safety, technical excellence, and rigorous industry standards, there is a place for you on our team.",
+    "applyTitle": "How to Apply",
+    "applyDescription": "To apply for current or future opportunities, please submit your comprehensive CV to our operations department. You must state your desired position title in the email subject line for your application to be processed.",
+    "email": "operations@rysgally-gun.com",
+    "emailLabel": "Email Operations",
+    "contactSupport": "For general inquiries, visit our contact page."
+  }
+}
