@@ -1,230 +1,173 @@
 {
-  "ServiceManifestoBlock": {
-    "badge": "Our Services",
-    "inclusionsTitle": "Standard Inclusions",
-    "before": "Before",
-    "after": "After",
-    "services": {
-      "routine": {
-        "label": "Routine / Maintenance Cleaning",
-        "title": "Consistent care for a permanently polished environment.",
-        "description": "We provide scheduled maintenance cleaning that keeps residential and commercial spaces fresh, hygienic, and presentable throughout the week. Our trained team follows a detailed cleaning plan tailored to your property, schedule, and high-traffic areas.",
-        "imageBeforeAlt": "Routine maintenance before state showing light surface dust",
-        "imageAfterAlt": "Routine maintenance after state showing a fresh, presentable environment",
-        "checklist": {
-          "dusting": "Dusting of furniture and accessible surfaces",
-          "vacuuming": "Vacuuming of carpets, rugs, and upholstery",
-          "mopping": "Sweeping and mopping of hard floors",
-          "kitchen": "Kitchen surface and appliance exterior cleaning",
-          "bathroom": "Bathroom cleaning and sanitization",
-          "mirrors": "Mirror and glass surface polishing",
-          "waste": "Waste collection and bin-liner replacement",
-          "handles": "Door handle and high-touch point disinfection",
-          "sills": "Interior window-sill cleaning",
-          "inspection": "Final inspection and space presentation"
-        },
-        "addons": {}
-      },
-      "deep": {
-        "label": "Deep Cleaning",
-        "title": "Intensive cleaning beyond the visible surface.",
-        "description": "Our deep-cleaning service targets accumulated dirt, grease, limescale, dust, and hidden residue throughout the property. We clean overlooked areas, detailed fixtures, and hard-to-reach spaces to restore a noticeably fresher and more hygienic environment.",
-        "imageBeforeAlt": "Deep Cleaning before state showing hidden residue and accumulated dirt",
-        "imageAfterAlt": "Deep Cleaning after state showing fully restored clean property",
-        "checklist": {
-          "dusting": "Detailed surface and furniture dust removal",
-          "furniture": "Behind and beneath furniture cleaning",
-          "degreasing": "Intensive kitchen degreasing",
-          "descaling": "Bathroom descaling and sanitization",
-          "skirting": "Skirting board and corner detailing",
-          "doors": "Door, frame, and handle cleaning",
-          "cabinets": "Interior cabinet and drawer cleaning",
-          "vents": "Vent, grille, and accessible fixture dusting",
-          "floors": "Floor scrubbing and edge cleaning",
-          "spots": "Stain and residue spot treatment",
-          "windows": "Interior window and glass cleaning",
-          "inspection": "Final hygiene and quality inspection"
-        },
-        "addons": {}
-      },
-      "construction": {
-        "label": "Post-Construction / Renovation Cleaning",
-        "title": "Precision removal of construction dust and residue.",
-        "description": "We transform newly built or renovated spaces into clean, safe, and presentation-ready environments. Our team removes fine construction dust, paint marks, adhesive residue, packaging debris, and surface contamination without damaging newly installed finishes.",
-        "imageBeforeAlt": "Post-Construction showing fine dust, packaging, and debris",
-        "imageAfterAlt": "Post-Construction turn-key presentation-ready configuration",
-        "checklist": {
-          "extraction": "Fine construction dust extraction",
-          "detailing": "Floor, wall, and skirting board detailing",
-          "paint": "Paint and plaster spot removal",
-          "residue": "Adhesive, silicone, and label residue treatment",
-          "windows": "Window, frame, and track cleaning",
-          "cabinets": "Cabinet and wardrobe interior cleaning",
-          "fixtures": "Fixture, fitting, and hardware polishing",
-          "tile": "Tile and grout residue removal",
-          "doors": "Door and frame detailing",
-          "exterior": "Balcony and exterior access-area cleaning",
-          "packaging": "Packaging and light debris collection",
-          "handover": "Final handover inspection"
-        },
-        "addons": {}
-      },
-      "corporate": {
-        "label": "Offices and Corporate Cleaning",
-        "title": "Professional cleaning for productive workplaces.",
-        "description": "We maintain clean, organized, and hygienic working environments that reflect the standards of your business. Services can be arranged before, during, or after working hours, with customized schedules for offices of every size.",
-        "imageBeforeAlt": "Unclean workspace office layout desk",
-        "imageAfterAlt": "Pristine professional corporate layout environment",
-        "checklist": {
-          "desks": "Desk and workstation surface cleaning",
-          "furniture": "Office furniture dusting",
-          "floors": "Carpet vacuuming and hard-floor maintenance",
-          "reception": "Meeting room and reception cleaning",
-          "pantry": "Pantry and shared-kitchen cleaning",
-          "washrooms": "Washroom cleaning and sanitization",
-          "disinfection": "High-touch point disinfection",
-          "glass": "Internal glass partition cleaning",
-          "waste": "Waste collection and bin management",
-          "common": "Lift, corridor, and common-area cleaning",
-          "supply": "Supply monitoring upon request",
-          "inspection": "Scheduled quality-control inspections"
-        },
-        "addons": {}
-      },
-      "drycleaning": {
-        "label": "Dry Cleaning",
-        "title": "Low-moisture treatment for delicate textiles.",
-        "description": "Our professional dry-cleaning process refreshes moisture-sensitive carpets, rugs, upholstery, curtains, and fabric surfaces without excessive saturation. Specialized cleaning compounds help lift surface oils, dust, odours, and localized stains while protecting delicate fibres and finishes.",
-        "imageBeforeAlt": "Delicate textiles with embedded dust and stains",
-        "imageAfterAlt": "Refreshed and realigned pristine textile fabric",
-        "checklist": {
-          "assessment": "Detailed textile condition assessment",
-          "vacuuming": "Industrial dry vacuuming",
-          "pretreatment": "Targeted stain pre-treatment",
-          "compound": "Low-moisture cleaning compound application",
-          "agitation": "Controlled mechanical fibre agitation",
-          "spot": "Fabric-safe spot cleaning",
-          "odour": "Odour neutralization treatment",
-          "allergen": "Allergen and loose-dander extraction",
-          "fibre": "Fibre and pile realignment",
-          "finishing": "Rapid, low-moisture finishing",
-          "detailing": "Edge, corner, and crevice detailing",
-          "inspection": "Final textile inspection"
-        },
-        "addons": {}
-      },
-      "pressure": {
-        "label": "Pressure Washing",
-        "title": "High-pressure restoration for durable stone and tiled surfaces.",
-        "description": "We remove embedded dirt, atmospheric residue, algae, staining, and surface buildup from granite slabs, paving stones, ceramic tiles, and marble. Pressure levels and cleaning methods are carefully adjusted according to the material and condition of each surface.",
-        "imageBeforeAlt": "Stone surface with algae and atmospheric buildup",
-        "imageAfterAlt": "Restored pristine paving stone surface",
-        "checklist": {
-          "assessment": "Surface condition and material assessment",
-          "debris": "Loose debris and dust clearance",
-          "pretreatment": "Targeted stain pre-treatment",
-          "washing": "Controlled pressure washing",
-          "grout": "Grout and joint-line cleaning",
-          "algae": "Algae and organic buildup removal",
-          "oil": "Oil and traffic-mark treatment",
-          "detailing": "Edge and corner detailing",
-          "sensitive": "Low-pressure treatment for sensitive stone",
-          "rinsing": "Surface rinsing and residue removal",
-          "protection": "Surrounding-area protection",
-          "inspection": "Final cleanliness inspection"
-        },
-        "addons": {}
-      },
-      "facade": {
-        "label": "Exterior Building and Facade Cleaning",
-        "title": "Professional exterior care from ground level to height.",
-        "description": "We restore the appearance of building exteriors by removing dust, pollution, water marks, organic buildup, and weather-related staining. Our team selects appropriate equipment and methods for glass, stone, metal, cladding, render, and other facade materials.",
-        "imageBeforeAlt": "Building exterior with weather staining and pollution marks",
-        "imageAfterAlt": "Restored clean building exterior facade",
-        "checklist": {
-          "assessment": "Exterior surface condition assessment",
-          "dust": "Dust and atmospheric residue removal",
-          "washing": "Facade washing and controlled rinsing",
-          "glass": "Glass and exterior window cleaning",
-          "cladding": "Cladding and panel cleaning",
-          "stone": "Stone and rendered-surface treatment",
-          "marks": "Water-mark and pollution-stain treatment",
-          "ledge": "Ledge, frame, and architectural-detail cleaning",
-          "algae": "Algae and organic buildup removal",
-          "entrance": "Ground-level entrance detailing",
-          "protection": "Surrounding-area protection",
-          "inspection": "Final exterior inspection"
-        },
-        "addons": {}
-      },
-      "chandelier": {
-        "label": "Chandelier Cleaning",
-        "title": "Detailed care for chandeliers of every type and size.",
-        "description": "We clean chandeliers with precision, protecting delicate crystals, glass pieces, metal frames, decorative elements, and electrical components. Each fixture is assessed individually and cleaned using controlled methods suitable for its material, size, and installation height.",
-        "imageBeforeAlt": "Chandelier with dusty crystals and dull metal frame",
-        "imageAfterAlt": "Brilliant chandelier with polished crystals and alignment",
-        "checklist": {
-          "assessment": "Fixture condition and access assessment",
-          "protection": "Surrounding furniture and floor protection",
-          "crystal": "Individual crystal and glass cleaning",
-          "metal": "Frame and decorative metal dusting",
-          "detailing": "Arm, chain, and fitting detailing",
-          "residue": "Safe removal of fingerprints and residue",
-          "polishing": "Non-abrasive polishing",
-          "bulbs": "Bulb exterior cleaning where accessible",
-          "alignment": "Crystal alignment and presentation",
-          "highlevel": "High-level access equipment when required",
-          "moisture": "Controlled moisture application",
-          "inspection": "Final lighting and appearance inspection"
-        },
-        "addons": {}
-      },
-      "windows": {
-        "label": "Window Cleaning",
-        "title": "Streak-free clarity for windows of all types and sizes.",
-        "description": "We professionally clean residential, commercial, interior, exterior, high-level, and specialist window systems. Our methods remove dust, fingerprints, water marks, pollution, and environmental residue while protecting glass, frames, seals, and surrounding finishes.",
-        "imageBeforeAlt": "Window glass with fingerprints and water marks",
-        "imageAfterAlt": "Crystal clear streak-free window glass",
-        "checklist": {
-          "glass": "Interior and exterior glass cleaning",
-          "frames": "Frame and sill detailing",
-          "tracks": "Window-track and channel cleaning",
-          "fingerprints": "Fingerprint and grease removal",
-          "marks": "Water-mark and mineral-residue treatment",
-          "detailing": "Edge and corner detailing",
-          "doors": "Glass-door and partition cleaning",
-          "skylights": "Skylight cleaning where accessible",
-          "highlevel": "High-level window cleaning when required",
-          "polishing": "Non-abrasive glass polishing",
-          "protection": "Surrounding-surface protection",
-          "inspection": "Final streak and clarity inspection"
-        },
-        "addons": {}
-      }
+  "servicesPage": {
+    "header": {
+      "title": "Integrated Services",
+      "subtitle": "Our Capabilities"
     }
   },
-
-  "ProcessGuidelineBlock": {
-    "badge": "How It Works",
-    "headingStart": "Zero friction.",
-    "headingAccent": "Absolute precision.",
-    "stepPrefix": "STEP",
-    "ctaTitle": "Ready to restore your space?",
-    "ctaDescription": "Skip the back-and-forth emails. Use our interactive calculator to build your exact package and secure your priority booking immediately.",
-    "ctaButton": "Instant Estimate",
-    "steps": {
-      "step-1": {
-        "title": "Instant Estimate",
-        "description": "Use our transparent calculator to get an immediate quote based on your exact square footage and required service level."
-      },
-      "step-2": {
-        "title": "Coordinate & Confirm",
-        "description": "Select a date that fits your schedule. Our operations team will verify the details and dispatch our vetted professionals."
-      },
-      "step-3": {
-        "title": "Exceptional Execution",
-        "description": "We arrive fully equipped with industrial machinery and botanical solutions to restore your space to pristine condition."
-      }
+  "servicesDirectoryBlock": {
+    "directory": {
+      "construction": "Industrial Facility Construction",
+      "procurement": "Strategic Procurement",
+      "maintenance": "Equipment Maintenance",
+      "machineShop": "Machine Shop Services",
+      "pressureManagement": "Pressure Management",
+      "ndt": "Advanced NDT Services",
+      "lifting": "Lifting Equipment Inspection",
+      "drillingTools": "Drilling Tools Inspection",
+      "rental": "Equipment Rental"
+    },
+    "content": {
+      "construction": {},
+      "procurement": {},
+      "maintenance": {},
+      "machineShop": {},
+      "pressureManagement": {},
+      "ndt": {},
+      "lifting": {},
+      "drillingTools": {},
+      "rental": {}
     }
+  },
+  "servicesContent": {
+    "construction": {
+      "title": "Industrial Facility Construction",
+      "tagline": "Building the Future of Industry",
+      "intro": "We specialize in constructing and maintaining a wide range of industrial facilities, ensuring operational reliability and compliance with regulatory requirements. Our expertise spans multiple sectors, including energy, petrochemicals, and natural gas infrastructure.",
+      "facilitiesTitle": "Facilities We Work On",
+      "facilities": [
+        {
+          "title": "Refinery",
+          "desc": "Comprehensive construction and maintenance for oil and gas processing plants."
+        },
+        {
+          "title": "Power Plant",
+          "desc": "Building and upgrading facilities for efficient energy production."
+        },
+        {
+          "title": "Gas Terminal",
+          "desc": "Specialized construction for gas storage and distribution hubs."
+        },
+        {
+          "title": "Fertilizer Plant",
+          "desc": "Infrastructure solutions for chemical and agricultural production."
+        },
+        {
+          "title": "Tank Farm",
+          "desc": "Design and construction of large-scale storage facilities."
+        },
+        {
+          "title": "LNG Trunk Line",
+          "desc": "Expertise in constructing pipelines for liquefied natural gas transport."
+        }
+      ],
+      "workTitle": "Construction Work We Perform",
+      "work": [
+        {
+          "title": "Steel Structures",
+          "desc": "Comprehensive solutions for designing, fabricating, and erecting robust steel frameworks tailored for industrial applications. Engineered to comply with industry standards.",
+          "standards": ["AISC", "AWS"]
+        },
+        {
+          "title": "Tank Construction",
+          "desc": "We offer expert construction of storage tanks designed for safety, efficiency, and durability, catering to diverse industrial needs.",
+          "standards": ["API 650", "API 620"]
+        },
+        {
+          "title": "Insulation",
+          "desc": "Advanced thermal and acoustic insulation solutions to enhance energy efficiency, safety, and operational performance in industrial settings."
+        },
+        {
+          "title": "Piping Systems",
+          "desc": "Design, fabrication, and installation of precision piping systems for the safe and efficient transport of fluids and gases.",
+          "standards": ["Cryogenic", "High-Pressure"]
+        },
+        {
+          "title": "Painting & Protective Coatings",
+          "desc": "We apply high-performance, corrosion-resistant, and weatherproof coatings to steel frameworks, pipelines, tanks, and machinery."
+        }
+      ]
+    },
+    "procurement": {
+      "title": "Strategic Procurement",
+      "tagline": "Reliable Solutions for Critical Operations",
+      "intro": "Our wide range of products, including air dryers, compressors, automation components, cables, instrumentation, pumps, electrical and safety supplies, lab equipment, drives, transmission parts, mechanical components, and valves, offers dependable performance and precision. Designed for durability and ease of use, these solutions ensure safe and efficient system functionality.",
+      "workTitle": "Our Supply Capabilities Include",
+      "work": [
+        {
+          "title": "Cable Management & Consumables",
+          "desc": "Our cable management consumables and accessories, including cables, glands, heat shrink, joining kits, trays, lugs, and marking systems, simplify installation and organization. These products ensure secure connections and clear identification for efficient electrical setups."
+        },
+        {
+          "title": "Automation & Switchgear",
+          "desc": "Our automation and switchgear components, including panel meters, cam switches, contactors, control stations, timers, monitoring relays, overload relays, plug-in relays, push buttons, and limit switches, provide reliable control, monitoring, and protection for electrical systems. These products are designed for precision, ease of use, and durability, ensuring seamless operation and safety in various applications."
+        },
+        {
+          "title": "Instrumentation & Pumps",
+          "desc": "Our instrumentation and pumps, including chart recorders, gas meters, pressure gauges, fire and gas detectors, vacuum switches, pumps, flow level instruments, and load cells, offer accurate measurement and control. These tools provide precision and safety for critical processes."
+        },
+        {
+          "title": "Air Dryers, Compressors & Major Brand Spares",
+          "desc": "Our air dryers and compressors ensure efficient air compression and moisture removal for various applications, paired with genuine major brand spares for easy maintenance. These systems are built for consistent performance, offering durability and quick access to replacement parts to minimize downtime."
+        },
+        {
+          "title": "Electrical Components & Systems",
+          "desc": "Our electrical components, including lamps, multi-meters, transformers, sensors, air conditioning units, meters, fuses, circuit breakers, rectifiers, and buzzers, support diverse electrical functions. They ensure reliable power management, monitoring, and environmental control."
+        },
+        {
+          "title": "Drives & Transmission Spares",
+          "desc": "Our drives and transmission parts, including frequency drivers, motors, controllers, pulleys, belts, and bushes, provide efficient power transfer and control. These components ensure durability and smooth operation in various systems."
+        },
+        {
+          "title": "Laboratory Equipment",
+          "desc": "Our laboratory equipment, including scales, centrifuges, heaters, filter paper, gas columns, and stirrers, enables precise testing and analysis. These tools are designed for accuracy and ease of use in scientific applications."
+        },
+        {
+          "title": "Mechanical Parts & Systems",
+          "desc": "Our mechanical components, including conveyors, belts, chains, saw blades, pulleys, threaded rods, hose fittings, dryers, gear pullers, oil seals, bearings, cutting tools, actuators, shafts, absorbers, mufflers, boosters, and turntables, support diverse mechanical functions. They are built for strength and precision in complex systems."
+        },
+        {
+          "title": "Safety Supplies",
+          "desc": "Our safety supplies, including lamps, clamps, multi-meters, transformers, electric sensors, air conditioning units, meters, fuses, circuit breakers, rectifiers, and buzzers, enhance operational safety through reliable monitoring and control. These components are designed for accuracy and durability, ensuring secure electrical systems and safe environmental conditions."
+        },
+        {
+          "title": "Valves & Actuators",
+          "desc": "Our valves and actuators, including gate, water, knife gate, non-return, air, and check valves, plus PRVs, mounts, positioners, repair kits, and stems, provide precise flow regulation. These components are designed for durability and easy maintenance."
+        }
+      ]
+    },
+    "maintenance": {
+      "title": "Equipment Maintenance",
+      "tagline": "Expert Care & Advanced Diagnostics",
+      "intro": "Our maintenance services ensure reliable performance of critical equipment through expert care and advanced diagnostics. We minimize downtime, enhance safety, and optimize efficiency for turbomachinery, motors, pumps, valves, and instrumentation.",
+      "workTitle": "Our Maintenance Capabilities",
+      "work": [
+        {
+          "title": "Turbomachinery Services",
+          "desc": "Our turbomachinery services deliver expert maintenance and diagnostics for turbines and compressors, ensuring optimal performance and reliability. We minimize downtime through precise repairs and compliance with industry standards."
+        },
+        {
+          "title": "Electric Motors & Generators Maintenance",
+          "desc": "Our electric motors and generators maintenance services ensure optimal performance through expert diagnostics, repairs, and rewinding. We reduce downtime and enhance reliability while meeting stringent industry standards."
+        },
+        {
+          "title": "Pump Maintenance",
+          "desc": "Our pump maintenance services ensure reliable operation through expert diagnostics, repairs, and performance testing. We minimize downtime and extend equipment life while adhering to industry standards."
+        },
+        {
+          "title": "Valve Maintenance",
+          "desc": "Our valve maintenance services deliver expert inspections, repairs, and testing to ensure reliable operation and leak-free performance. We minimize downtime and ensure compliance with industry standards for optimal system efficiency."
+        },
+        {
+          "title": "Electrical & Instrumentation Services",
+          "desc": "Our electrical and instrumentation services provide expert installation, maintenance, and calibration to ensure reliable system performance. We minimize downtime and ensure compliance with industry standards for safe, efficient operations."
+        }
+      ]
+    }
+  },
+  "servicesCtaBlock": {
+    "title": "Require Technical Specifications?",
+    "description": "Our engineering team is ready to discuss your project requirements, provide detailed compliance documentation, and deliver tailored industrial solutions.",
+    "button": "Consult Our Engineers"
   }
 }
