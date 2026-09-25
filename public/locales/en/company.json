@@ -1,109 +1,113 @@
 {
-  "MissionBlock": {
-    "badge": "Our Philosophy",
-    "titleStart": "Where professional precision meets",
-    "titleAccent": "uncompromising care.",
-    "descriptionPart1": "Hilli Tämizlik was founded on a singular, clear realization: true cleanliness cannot be achieved through surface-level rushing. In our language, ",
-    "qualityHighlight": "\"Hilli\" means Quality",
-    "descriptionPart2": ", and we treat that definition as an architectural blueprint rather than a generic slogan.",
-    "description2": "We observed an industry plagued by unpredictable scheduling, inconsistent results, and harsh, toxic chemicals. We chose a different path. By combining industrial-grade extraction engineering with rigorously vetted hospitality professionals, we transform residential and commercial properties into pristine, deeply sanitized environments.",
-    "ctaButton": "Explore Our Standards",
-    "imageAlt": "Premium sanitized residential space environment",
-    "metricLabel": "Operational Metric",
-    "metricValue": "100% Verified Quality Standards"
+  "companyPage": {
+    "header": {
+      "title": "Corporate Overview",
+      "subtitle": "Who We Are"
+    }
   },
-
-  "SecurityVettingBlock": {
-    "badge": "Security Blueprint",
-    "headingStart": "Our strictest standards",
-    "headingAccent": "are the ones you cannot see.",
-    "steps": {
-      "screening": {
-        "title": "Rigorous Background Screening",
-        "subtitle": "Identity & Trust Verification",
-        "description": "Every single professional undergoes multi-level identity verification, criminal background history checks, and exhaustive personal reference vetting before ever putting on our uniform."
+  "corporateHeritageBlock": {
+    "subtitle": "Our Heritage",
+    "title": "A Proud Turkmen Company",
+    "p1": "Rysgally Gün is committed to sustainable development within Turkmenistan’s energy sector. We provide cost-effective, high-quality solutions designed to address both current demands and future industry challenges.",
+    "p2": "By adhering strictly to rigorous local and international frameworks, our objective is absolute reliability. We minimize operational risks, eliminate unnecessary downtime, and ensure the safety and efficiency of every project we undertake.",
+    "gridTitle": "Regulatory & Engineering Compliance",
+    "standards": {
+      "isoDesc": "Quality Management",
+      "apiDesc": "Petroleum Institute",
+      "asmeDesc": "Mechanical Engineering",
+      "leeaDesc": "Lifting Equipment",
+      "imcaDesc": "Marine Contractors",
+      "tdsDesc": "Turkmen Standards"
+    }
+  },
+  "corporatePoliciesBlock": {
+    "subtitle": "Corporate Governance",
+    "title": "Core Policies & Standards",
+    "policies": {
+      "hse": {
+        "title": "Health, Safety & Environment (HSE)",
+        "summary": "At Rysgally Gün, we prioritize the health and safety of our employees, contractors, clients, and community while safeguarding the environment. Protecting people, assets, and the environment is our core foundational value.",
+        "points": {
+          "1": {
+            "title": "Zero Harm Operations",
+            "desc": "Proactive risk identification, continuous safety training, and rigid prevention measures."
+          },
+          "2": {
+            "title": "Environmental Protection",
+            "desc": "Minimizing waste, operational emissions, and resource consumption across all sites."
+          },
+          "3": {
+            "title": "Equipment & Supervision",
+            "desc": "Deploying only certified equipment monitored under strict, continuous supervision protocols."
+          },
+          "4": {
+            "title": "Regulatory Compliance",
+            "desc": "Adherence to Turkmen Dowlet Standartlary, API, ISO, OSHA, IMCA, and LEEA standards."
+          }
+        }
       },
-      "academy": {
-        "title": "Professional Training at Hilli Tämizlik",
-        "subtitle": "Hands-on Specialization",
-        "description": "We do not hire unverified freelancers. All team members undergo 40 hours of practical instruction on premium surface management, advanced fabric extraction mechanics, and chemical safety."
+      "it": {
+        "title": "IT & Data Protection",
+        "summary": "We are committed to safeguarding personal and business data, ensuring strict compliance with local and international data protection laws to maintain absolute stakeholder trust and confidentiality.",
+        "points": {
+          "1": {
+            "title": "Core Principles",
+            "desc": "Data is processed lawfully, transparently, and minimally, ensuring accuracy and robust security."
+          },
+          "2": {
+            "title": "Data Handling & Encryption",
+            "desc": "Data is collected with consent, classified by sensitivity, and protected with role-based encryption."
+          },
+          "3": {
+            "title": "Data Subject Rights",
+            "desc": "Individuals retain full rights to access, correct, restrict, or request deletion of their data."
+          },
+          "4": {
+            "title": "Incident & Compliance",
+            "desc": "Aligned with ISO/IEC 27001 and GDPR principles, enforcing strict incident reporting protocols."
+          }
+        }
       },
-      "insurance": {
-        "title": "Comprehensive Liability Coverage",
-        "subtitle": "Corporate Accountability",
-        "description": "Total peace of mind. Our operations are backed by a comprehensive liability policy, ensuring your fine art, architectural finishes, and property are completely protected."
+      "antiCorruption": {
+        "title": "Anti-Corruption & Bribery",
+        "summary": "Rysgally Gün conducts business with integrity, transparency, and zero tolerance for bribery or corruption. We adhere strictly to international best practices and all applicable Central Asian laws.",
+        "points": {
+          "1": {
+            "title": "Zero Tolerance Policy",
+            "desc": "Bribery, corruption, facilitation payments, or unethical inducements are strictly forbidden."
+          },
+          "2": {
+            "title": "Gifts and Hospitality",
+            "desc": "Strictly limited to modest, reasonable interactions that do not influence business decisions."
+          },
+          "3": {
+            "title": "Third-Party Due Diligence",
+            "desc": "All business partners and contractors must undergo rigorous compliance verification."
+          },
+          "4": {
+            "title": "Reporting & Protection",
+            "desc": "Confidential whistleblowing channels ensure violations are reported and investigated safely."
+          }
+        }
       }
     }
   },
-
-  "EquipmentBlock": {
-    "badge": "Our Arsenal",
-    "headingStart": "Industrial power.",
-    "headingAccent": "Botanical safety.",
-    "description": "We invest heavily in the latest European extraction machinery, thermal sterilization, and environmentally responsible chemistry to ensure your space is not just visually spotless, but biologically sanitized.",
-    "pillars": {
-      "machinery": {
-        "title": "Pro-Grade Extraction",
-        "subtitle": "Industrial Machinery",
-        "description": "Injection-suction technology that pulls embedded dirt and allergens from the deepest fabric layers."
+  "operationalEthosBlock": {
+    "subtitle": "Our Mission",
+    "title": "Operational Ethos",
+    "tenets": {
+      "customers": {
+        "title": "We Make Our Customers Successful",
+        "desc": "We are relentless in meeting our commitments. We act with urgency to deliver innovative and high-quality solutions to every project."
       },
-      "chemistry": {
-        "title": "Green Chemistry",
-        "subtitle": "100% Non-Toxic",
-        "description": "Biodegradable, hospital-grade agents safe for children, pets, and delicate architectural finishes."
+      "profitability": {
+        "title": "We Grow Profitably",
+        "desc": "We ensure long-term success by investing in future technologies and maintaining a competitive, flexible cost structure."
       },
-      "air-quality": {
-        "title": "HEPA Purification",
-        "subtitle": "Active Air Scrubbing",
-        "description": "Certified HEPA filtration systems that actively capture 99.97% of micro-particles while we clean."
-      },
-      "steam": {
-        "title": "Thermal Sterilization",
-        "subtitle": "200°C Dry Steam",
-        "description": "High-pressure dry steam application that instantly eradicates bacteria and lifts hardened grease without chemicals."
-      },
-      "microfiber": {
-        "title": "Zonal Microfiber",
-        "subtitle": "Zero Cross-Contamination",
-        "description": "Strict color-coded fiber systems ensuring bathroom textiles never touch kitchen or living space surfaces."
+      "integrity": {
+        "title": "We Do It The Right Way",
+        "desc": "We act with strict integrity to deliver sustainable value to our people, our partners, and customers throughout the world."
       }
     }
-  },
-
-  "RecommendationsBlock": {
-    "badge": "Verified Reviews",
-    "headingStart": "Trusted by",
-    "headingAccent": "industry leaders.",
-    "description": "Don't just take our word for it. Read the official recommendation letters from our long-term corporate partners.",
-    "viewDocument": "View PDF Document",
-    "items": {
-      "client1": {
-        "name": "Azatech",
-        "snippet": "Highlights reliable, continuous office maintenance, praising the staff's responsibility and ability to work without extra supervision."
-      },
-      "client2": {
-        "name": "Rysgally Gün",
-        "snippet": "Confirms continuous professional office cleaning, highlighting the team's high organization, autonomy, and excellent professionalism."
-      },
-      "client3": {
-        "name": "Bereketli Horjun",
-        "snippet": "Recommends the company as a reliable partner for regular office maintenance, noting their attention to detail and autonomous management."
-      },
-      "client4": {
-        "name": "Humanity Water",
-        "snippet": "Appreciates the continuous office cleaning services, noting strict compliance with sanitary standards and independent process management."
-      },
-      "client5": {
-        "name": "Arkach Shopping Center",
-        "snippet": "Highly recommends for large-scale projects, praising the high-quality comprehensive cleaning of over 3,000 sqm of retail spaces."
-      }
-    }
-  },
-
-  "PartnersBlock": {
-    "badge": "Notable Clients",
-    "headingStart": "Companies We've",
-    "headingAccent": "Worked With",
-    "description": "A selection of organizations we have had the opportunity to collaborate with and provide our services to on various projects."
   }
 }

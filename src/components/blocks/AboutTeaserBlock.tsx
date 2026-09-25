@@ -24,7 +24,6 @@ export const AboutTeaserBlock = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-stretch">
 
-          {/* Left Column: Core Messaging */}
           <div className="lg:col-span-7 flex flex-col justify-center pr-0 lg:pr-12">
             <FadeIn direction="up" delay={0}>
               <div className="flex items-center gap-4 mb-6">
@@ -50,10 +49,10 @@ export const AboutTeaserBlock = () => {
 
             <FadeIn direction="up" delay={300}>
               <div className="flex flex-col gap-6 mb-8 border-l-2 border-gray-200 pl-6">
-                <Text className="text-gray-700 text-base md:text-lg leading-relaxed font-medium">
+                <Text className="text-gray-600 text-base leading-relaxed font-medium">
                   {t("aboutTeaser.paragraph1")}
                 </Text>
-                <Text className="text-gray-600 text-base leading-relaxed">
+                <Text className="text-gray-600 text-base leading-relaxed font-medium">
                   {t("aboutTeaser.paragraph2")}
                 </Text>
               </div>

@@ -9,6 +9,7 @@ import { Image } from "../ui/Image";
 import SliderImg1 from "../../assets/home/slider/slider_img_1.png";
 import SliderImg2 from "../../assets/home/slider/slider_img_2.png";
 import SliderImg3 from "../../assets/home/slider/slider_img_3.png";
+import { Button } from "../ui/Button";
 
 const slides = [
   {
@@ -39,9 +40,8 @@ export const HeroBlock = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [isMounted, setIsMounted] = useState(false);
-  
-  // Track if the hero is in the viewport to stop unnecessary math
-  const [isInView, setIsInView] = useState(true); 
+
+  const [isInView, setIsInView] = useState(true);
 
   const sectionRef = useRef<HTMLElement>(null);
   const imgRefs = useRef<(HTMLImageElement | null)[]>([]);
@@ -51,7 +51,6 @@ export const HeroBlock = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  // OPTIMIZATION 1: Intersection Observer
   useEffect(() => {
     const section = sectionRef.current;
     if (!section) return;
@@ -60,18 +59,16 @@ export const HeroBlock = () => {
       ([entry]) => {
         setIsInView(entry.isIntersecting);
       },
-      { threshold: 0 } // Triggers as soon as 1px is visible/hidden
+      { threshold: 0 }
     );
 
     observer.observe(section);
     return () => observer.disconnect();
   }, []);
 
-  // OPTIMIZATION 2: requestAnimationFrame for Parallax
   useEffect(() => {
-    // If the hero isn't visible, don't attach scroll listeners at all
-    if (!isInView) return; 
-    
+    if (!isInView) return;
+
     const section = sectionRef.current;
     if (!section) return;
 
@@ -86,12 +83,11 @@ export const HeroBlock = () => {
 
       imgRefs.current.forEach((img, i) => {
         if (!img) return;
-        // OPTIMIZATION 3: translate3d forces GPU hardware acceleration
         img.style.transform = i === currentSlide
           ? `translate3d(0, ${shift}px, 0)`
           : 'translate3d(0, 0, 0)';
       });
-      
+
       ticking = false;
     };
 
@@ -102,9 +98,8 @@ export const HeroBlock = () => {
       }
     };
 
-    // Run once to set initial position
-    updateParallax(); 
-    
+    updateParallax();
+
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, [currentSlide, isInView]);
@@ -150,13 +145,12 @@ export const HeroBlock = () => {
                 src={slide.image}
                 alt={t(`heroBlock.slides.${slide.tKey}.title`)}
                 containerClassName="absolute inset-0 z-0 bg-primary-900"
-                // Added will-change-transform for browser rendering hints
-                className="w-full h-[130%] object-cover will-change-transform translate-y-[-15%]"
+                className="w-full h-[130%] object-cover object-[50%_center] md:object-center will-change-transform translate-y-[-15%]"
               />
 
-              <div className="absolute inset-0 z-10 bg-primary-900/85 md:bg-transparent md:bg-linear-to-r md:from-primary-900/95 md:via-primary-900/70 md:to-transparent" />
-              <div className="absolute inset-0 z-10 mix-blend-multiply bg-black/50 md:bg-transparent md:bg-linear-to-r md:from-black/80 md:via-black/40 md:to-transparent" />
-              <div className="absolute inset-0 z-10 bg-black/30 md:bg-black/10" />
+              <div className="absolute inset-0 z-10 bg-primary-950/40 md:bg-transparent md:bg-linear-to-r md:from-primary-950/95 md:via-primary-900/70 md:to-transparent" />
+              <div className="absolute inset-0 z-10 mix-blend-multiply bg-black/20 md:bg-transparent md:bg-linear-to-r md:from-black/80 md:via-black/40 md:to-transparent" />
+              <div className="absolute inset-0 z-10 bg-linear-to-t from-primary-950/90 via-primary-950/30 to-transparent md:bg-black/10" />
 
               <div className="absolute inset-0 z-20 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center pb-24 md:pb-32">
                 <div className="max-w-2xl">
@@ -193,9 +187,12 @@ export const HeroBlock = () => {
                     isAnimatedIn ? "opacity-100 translate-x-0 delay-700" : "opacity-0 -translate-x-12"
                   )}>
                     <Link to={slide.buttonLink} tabIndex={-1}>
-                      <button className="bg-secondary text-primary-900 hover:bg-secondary-500 transition-colors duration-300 px-10 py-4 text-sm font-black tracking-widest uppercase rounded-sm cursor-pointer shadow-lg">
+                      <Button
+                        size="lg"
+                        className="w-full sm:w-auto flex items-center justify-center bg-secondary text-primary-900 hover:bg-secondary-500 transition-colors duration-300 h-14 px-10 text-sm font-black tracking-widest uppercase rounded-sm cursor-pointer shadow-lg"
+                      >
                         {t(`heroBlock.slides.${slide.tKey}.buttonText`)}
-                      </button>
+                      </Button>
                     </Link>
                   </div>
                 </div>
@@ -215,14 +212,14 @@ export const HeroBlock = () => {
       <div className="absolute bottom-0 left-0 w-full z-40 bg-primary-900/80 backdrop-blur-md border-t border-white/10 h-16 md:h-24 flex items-center">
         <div className="flex md:hidden flex-1 items-center justify-center gap-5 h-full pl-4">
           {slides.map((slide, index) => (
-            <button
+            <Button
               key={`mobile-${slide.id}`}
               onClick={() => handleManualChange(index)}
               className={cn(
-                "h-2 w-2 transition-all duration-300 rounded-none cursor-pointer",
+                "h-2 w-2 min-h-0 min-w-0 p-0 border-none transition-all duration-300 rounded-sm cursor-pointer",
                 index === currentSlide ? "bg-secondary scale-125" : "bg-white/30 hover:bg-white/50"
               )}
-              aria-label={t('heroBlock.controls.goTo', { label: t(`heroBlock.slides.${slide.tKey}.navLabel`) })}
+              aria-label={t("heroBlock.controls.goTo", { label: t(`heroBlock.slides.${slide.tKey}.navLabel`) })}
             />
           ))}
         </div>
@@ -233,11 +230,11 @@ export const HeroBlock = () => {
             const isActive = index === currentSlide;
 
             return (
-              <button
+              <Button
                 key={`desktop-${slide.id}`}
                 onClick={() => handleManualChange(index)}
                 className={cn(
-                  "relative flex flex-col items-center justify-center h-full min-w-40 px-4 transition-all duration-300 group cursor-pointer",
+                  "relative flex flex-col items-center justify-center h-full min-w-40 p-0 border-none bg-transparent rounded-none transition-all duration-300 group cursor-pointer",
                   isActive ? "bg-white/5" : "hover:bg-white/5"
                 )}
               >
@@ -254,29 +251,30 @@ export const HeroBlock = () => {
                 )}>
                   {t(`heroBlock.slides.${slide.tKey}.navLabel`)}
                 </span>
+
                 {isActive && (
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-secondary" />
                 )}
-              </button>
+              </Button>
             );
           })}
         </div>
-
         <div className="flex items-center h-full border-l border-white/10 shrink-0 px-2 md:px-4 bg-primary-900/60">
-          <button
+          <Button
             onClick={() => handleManualChange('prev')}
-            className="p-3 md:p-4 text-white/40 hover:text-white transition-colors cursor-pointer"
+            className="p-3 md:p-4 bg-transparent border-none shadow-none text-white/40 hover:text-white hover:bg-transparent transition-colors cursor-pointer rounded-sm"
             aria-label={t("heroBlock.controls.prev")}
           >
             <ChevronLeft className="h-5 w-5 md:h-6 md:w-6" />
-          </button>
-          <button
+          </Button>
+
+          <Button
             onClick={() => handleManualChange('next')}
-            className="p-3 md:p-4 text-white/40 hover:text-white transition-colors cursor-pointer"
+            className="p-3 md:p-4 bg-transparent border-none shadow-none text-white/40 hover:text-white hover:bg-transparent transition-colors cursor-pointer rounded-sm"
             aria-label={t("heroBlock.controls.next")}
           >
             <ChevronRight className="h-5 w-5 md:h-6 md:w-6" />
-          </button>
+          </Button>
         </div>
       </div>
     </section>

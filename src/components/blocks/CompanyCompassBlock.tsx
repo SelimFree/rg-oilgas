@@ -28,7 +28,6 @@ export const CompanyCompassBlock = () => {
   return (
     <section className="w-full py-24 bg-primary-950 text-white border-t border-white/5 relative overflow-hidden">
       
-      {/* Structural Background Pattern */}
       <div className="absolute inset-0 opacity-[0.03] bg-[url('../../assets/patterns/grid.svg')] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -67,7 +66,6 @@ export const CompanyCompassBlock = () => {
                   <div
                     className="group relative flex flex-col p-8 md:p-12 border-r-2 border-b-2 border-white/10 bg-white/5 hover:bg-white/10 transition-all duration-500 h-full"
                   >
-                    {/* Ghost Numbering */}
                     <span className="absolute top-6 right-8 text-5xl font-black text-white/5 group-hover:text-white/10 transition-colors pointer-events-none">
                       {point.id}
                     </span>
@@ -84,7 +82,6 @@ export const CompanyCompassBlock = () => {
                       {t(`companyCompass.points.${point.tKey}.description`)}
                     </Text>
 
-                    {/* Animated Industrial Bottom Line */}
                     <div className="absolute bottom-0 left-0 w-0 h-1 bg-secondary transition-all duration-500 group-hover:w-full" />
                   </div>
               </FadeIn>
