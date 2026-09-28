@@ -2,17 +2,22 @@ import { useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { ChevronRight } from "lucide-react";
-
 import { Heading } from "../ui/Heading";
 import { Text } from "../ui/Text";
 import { Button } from "../ui/Button";
 import { FadeIn } from "../utils/FadeIn";
+import { Dropdown } from "../ui/Dropdown";
 import { cn } from "../../lib/utils";
 
 import ConstructionImg from "../../assets/services/construction.png";
 import ProcurementImg from "../../assets/services/procurement.png";
 import MaintenanceImg from "../../assets/services/maintenance.png";
-import { Dropdown } from "../ui/Dropdown";
+import MachineShopImg from "../../assets/services/machine_shop.png";
+import PressureManagementImg from "../../assets/services/pressure_management.png";
+import NdtImg from "../../assets/services/ndt.png";
+import LiftingImg from "../../assets/services/lifting.png";
+import DrillingToolsImg from "../../assets/services/drilling_tools.png";
+import RentalImg from "../../assets/services/rental.png";
 
 const SERVICES_LIST = [
     { id: "construction" },
@@ -134,11 +139,16 @@ interface ServiceData {
     workTitle?: string;
     work?: Array<{ title: string; desc: string; standards?: string[] }>;
 }
-
 const imageMap: Record<string, string> = {
-    construction: ConstructionImg,
-    procurement: ProcurementImg,
-    maintenance: MaintenanceImg,
+  construction: ConstructionImg,
+  procurement: ProcurementImg,
+  maintenance: MaintenanceImg,
+  machineShop: MachineShopImg,
+  pressureManagement: PressureManagementImg,
+  ndt: NdtImg,
+  lifting: LiftingImg,
+  drillingTools: DrillingToolsImg,
+  rental: RentalImg,
 };
 
 export function DynamicServiceContent({ serviceId }: DynamicServiceContentProps) {
