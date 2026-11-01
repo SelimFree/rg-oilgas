@@ -31,31 +31,31 @@
   --color-success-600: hsl(142, 76%, 36%);
 
   /* 
-    Brand Primary Shade Colors (Deep Indigo tones from Logo)
+    Brand Primary Shade Colors (Deep Corporate Blue from Logo)
   */
-  --color-primary-50: hsl(245, 75%, 96%);
-  --color-primary-100: hsl(245, 70%, 90%);
-  --color-primary-200: hsl(245, 65%, 80%);
-  --color-primary-300: hsl(245, 60%, 70%);
-  --color-primary-400: hsl(245, 55%, 60%);
-  --color-primary-500: hsl(245, 60%, 50%);
-  --color-primary-600: hsl(245, 70%, 40%);
-  --color-primary-700: hsl(245, 75%, 31%); /* Exact Logo Match: #1E148C */
-  --color-primary-800: hsl(245, 80%, 20%);
-  --color-primary-900: hsl(245, 85%, 12%);
-  --color-primary-950: hsl(245, 90%, 8%);
+  --color-primary-50: hsl(209, 100%, 96%);
+  --color-primary-100: hsl(209, 100%, 90%);
+  --color-primary-200: hsl(209, 100%, 80%);
+  --color-primary-300: hsl(209, 100%, 70%);
+  --color-primary-400: hsl(209, 100%, 60%);
+  --color-primary-500: hsl(209, 100%, 50%);
+  --color-primary-600: hsl(209, 100%, 35%);
+  --color-primary-700: hsl(209, 100%, 25%);
+  --color-primary-800: hsl(209, 100%, 18%);
+  --color-primary-900: hsl(209, 100%, 12%);
+  --color-primary-950: hsl(209, 100%, 8%);
 
   /* 
-    Brand Secondary Shade Colors (Vibrant Green tones from Logo)
+    Brand Secondary Shade Colors (Metallic Silver/Grey from Logo)
   */
-  --color-secondary-50: hsl(116, 40%, 96%);
-  --color-secondary-100: hsl(116, 40%, 90%);
-  --color-secondary-200: hsl(116, 40%, 80%);
-  --color-secondary-300: hsl(116, 40%, 70%);
-  --color-secondary-400: hsl(116, 41%, 61%); /* Exact Logo Match: #7AC475 */
-  --color-secondary-500: hsl(116, 45%, 50%);
-  --color-secondary-600: hsl(116, 50%, 40%);
-  --color-secondary-700: hsl(116, 55%, 30%);
+  --color-secondary-50: hsl(210, 10%, 98%);
+  --color-secondary-100: hsl(210, 10%, 95%);
+  --color-secondary-200: hsl(210, 10%, 90%);
+  --color-secondary-300: hsl(210, 10%, 85%);
+  --color-secondary-400: hsl(210, 10%, 75%);
+  --color-secondary-500: hsl(210, 10%, 65%);
+  --color-secondary-600: hsl(210, 10%, 55%);
+  --color-secondary-700: hsl(210, 10%, 45%);
 
   /* Base Color Assignments */
   --color-primary: var(--color-primary-700);

@@ -8,8 +8,7 @@ import { Image } from "../ui/Image";
 import { LanguageSwitcher } from "../ui/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 
-// Ensure this path matches where you store the new RG logo
-import RgLogo from "../../assets/logo.png"; 
+import RgLogo from "../../assets/logo-header.png"; 
 
 export interface NavbarProps extends ComponentProps<"header"> {
   links: NavLinkItem[];
@@ -43,14 +42,13 @@ export const Navbar = forwardRef<HTMLElement, NavbarProps>(
       <header
         ref={ref}
         className={cn(
-          "sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-gray-200 transition-all h-20 md:h-24 shadow-sm",
+          "sticky top-0 z-50 w-full bg-white backdrop-blur-md border-b border-gray-200 transition-all h-20 md:h-24 shadow-sm",
           className
         )}
         {...props}
       >
         <div className="mx-auto flex h-full w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
 
-          {/* Logo Section - Constraints lifted so it sizes naturally */}
           <div className="relative flex items-center h-full">
             <Link
               to="/"
@@ -61,7 +59,6 @@ export const Navbar = forwardRef<HTMLElement, NavbarProps>(
                   src={RgLogo}
                   aspectRatio="auto"
                   alt={t("navbar.logoAlt", "Rysgally Gün Logo")}
-                  // Increased height mapping and set object-left to prevent awkward centering gaps
                   className="h-12 sm:h-14 md:h-18 w-auto object-contain object-left" 
                   containerClassName="flex items-center bg-transparent border-none outline-none ring-0"
                 />
@@ -87,7 +84,6 @@ export const Navbar = forwardRef<HTMLElement, NavbarProps>(
             ))}
           </nav>
 
-          {/* Actions Section - Removed border-l to prevent color bleeding or rendering artifacts */}
           <div className="flex h-full items-center gap-4 md:gap-6 ml-2 md:ml-0">
             <LanguageSwitcher />
 
@@ -139,8 +135,6 @@ export const Navbar = forwardRef<HTMLElement, NavbarProps>(
             </nav>
           </div>
         </div>
-
-        {/* Removed w-screen to fix the blue horizontal scrollbar overflow issue */}
         {isOpen && (
           <div
             className="fixed inset-0 z-40 cursor-default bg-primary-950/20 backdrop-blur-sm md:hidden"

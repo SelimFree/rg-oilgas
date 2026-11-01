@@ -41,7 +41,7 @@ export const AboutTeaserBlock = () => {
               >
                 {t("aboutTeaser.titleLine1")}{' '}
                 <br className="hidden md:block" />
-                <span className="text-gray-400">
+                <span className="text-gray-600">
                   {t("aboutTeaser.titleLine2")}
                 </span>
               </Heading>
@@ -85,7 +85,7 @@ export const AboutTeaserBlock = () => {
                   alt={t("aboutTeaser.imageAlt")}
                   aspectRatio="auto"
                   containerClassName="absolute inset-0 w-full h-full"
-                  className="w-full h-full object-cover opacity-30 mix-blend-luminosity"
+                  className="w-full h-full object-cover"
                 />
 
                 <div className="absolute inset-0 bg-linear-to-t from-primary-950/95 via-primary-900/60 to-primary-900/20 pointer-events-none" />

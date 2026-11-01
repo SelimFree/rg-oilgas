@@ -84,9 +84,8 @@ export const FeaturedServicesBlock = () => {
                     src={service.image}
                     alt={t(`featuredServices.services.${service.tKey}.title`)}
                     containerClassName="w-full h-full"
-                    className="opacity-100 lg:opacity-80 mix-blend-normal lg:mix-blend-luminosity transition-transform duration-700 ease-out group-hover:scale-105 group-hover:opacity-100 group-hover:mix-blend-normal" />
+                    className="opacity-100 transition-transform duration-700 ease-out group-hover:scale-105" />
 
-                  <div className="absolute inset-0 bg-linear-to-t from-primary-950/90 to-transparent pointer-events-none" />
 
                   <div className="absolute top-4 left-4 bg-primary-900 border-l-2 border-secondary px-4 py-2 z-10 backdrop-blur-sm">
                     <span className="text-[10px] font-black tracking-widest text-white uppercase">
@@ -96,7 +95,7 @@ export const FeaturedServicesBlock = () => {
                 </div>
 
                 <div className="flex flex-col grow p-8 relative">
-                  <Heading level={3} className="text-2xl font-black text-primary-950 mb-4 tracking-tight uppercase group-hover:text-secondary transition-colors duration-300">
+                  <Heading level={3} className="text-2xl font-black text-primary-950 mb-4 tracking-tight uppercase group-hover:text-secondary-500 transition-colors duration-300">
                     {t(`featuredServices.services.${service.tKey}.title`)}
                   </Heading>
 

@@ -27,7 +27,7 @@ export function PageHeaderBlock({
           <Image 
             src={backgroundImage} 
             alt="Header Background" 
-            className="w-full h-full object-cover object-[50%_center] md:object-center grayscale opacity-30 mix-blend-luminosity"
+            className="w-full h-full object-cover object-[50%_center] md:object-center "
             containerClassName="w-full h-full"
           />
           <div className="absolute inset-0 bg-linear-to-r from-primary-950 via-primary-950/80 to-transparent" />

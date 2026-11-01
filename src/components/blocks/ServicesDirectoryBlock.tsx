@@ -180,9 +180,8 @@ export function DynamicServiceContent({ serviceId }: DynamicServiceContentProps)
                     <img
                         src={activeImage}
                         alt={data.title}
-                        className="w-full h-full object-cover opacity-80 mix-blend-luminosity"
+                        className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-linear-to-t from-primary-950/80 via-primary-950/20 to-transparent pointer-events-none" />
                 </div>
             )}
 
