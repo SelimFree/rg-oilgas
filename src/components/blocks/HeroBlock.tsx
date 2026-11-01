@@ -1,15 +1,24 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { ChevronLeft, ChevronRight, HardHat, Cog, Wrench } from "lucide-react";
+import {
+  ChevronLeft,
+  ChevronRight,
+  HardHat,
+  Cog,
+  Wrench,
+  Factory,
+} from "lucide-react";
 import { cn } from "../../lib/utils";
 import { Heading } from "../ui/Heading";
 import { Text } from "../ui/Text";
 import { Image } from "../ui/Image";
+import { Button } from "../ui/Button";
+
 import SliderImg1 from "../../assets/home/slider/slider_img_1.png";
 import SliderImg2 from "../../assets/home/slider/slider_img_2.png";
 import SliderImg3 from "../../assets/home/slider/slider_img_3.png";
-import { Button } from "../ui/Button";
+import SliderImg4 from "../../assets/home/slider/slider_img_4.png";
 
 const slides = [
   {
@@ -18,6 +27,16 @@ const slides = [
     buttonLink: "/services#construction",
     image: SliderImg1,
     navIcon: HardHat,
+    imageClassName: "object-[75%_center] md:object-center",
+  },
+  {
+    id: 4,
+    tKey: "manufacture",
+    buttonLink: "/services#machineShop",
+    image: SliderImg4,
+    navIcon: Factory,
+    titleClassName: "text-3xl sm:text-5xl lg:text-6xl",
+    imageClassName: "object-[75%_center] md:object-center",
   },
   {
     id: 2,
@@ -25,6 +44,7 @@ const slides = [
     buttonLink: "/services#procurement",
     image: SliderImg2,
     navIcon: Cog,
+    imageClassName: "object-[75%_center] md:object-center",
   },
   {
     id: 3,
@@ -32,7 +52,8 @@ const slides = [
     buttonLink: "/services#maintenance",
     image: SliderImg3,
     navIcon: Wrench,
-  }
+    imageClassName: "object-[70%_center] md:object-center",
+  },
 ];
 
 export const HeroBlock = () => {
@@ -141,11 +162,16 @@ export const HeroBlock = () => {
           return (
             <div key={slide.id} className="relative w-full h-full shrink-0">
               <Image
-                ref={(el) => { imgRefs.current[index] = el; }}
+                ref={(el) => {
+                  imgRefs.current[index] = el;
+                }}
                 src={slide.image}
                 alt={t(`heroBlock.slides.${slide.tKey}.title`)}
                 containerClassName="absolute inset-0 z-0 bg-primary-900"
-                className="w-full h-[130%] object-cover object-[50%_center] md:object-center will-change-transform translate-y-[-15%]"
+                className={cn(
+                  "w-full h-[95%] md:h-[130%] object-cover will-change-transform translate-y-[-7.5%] md:translate-y-[-15%]",
+                  slide.imageClassName || "object-right md:object-center"
+                )}
               />
 
               <div className="absolute inset-0 z-10 bg-primary-950/40 md:bg-transparent md:bg-linear-to-r md:from-primary-950/95 md:via-primary-900/70 md:to-transparent" />
@@ -167,7 +193,10 @@ export const HeroBlock = () => {
                     level={1}
                     className={cn(
                       "text-white text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] uppercase",
-                      isAnimatedIn ? "opacity-100 translate-x-0 delay-300" : "opacity-0 -translate-x-12"
+                      isAnimatedIn
+                        ? "opacity-100 translate-x-0 delay-300"
+                        : "opacity-0 -translate-x-12",
+                      slide.titleClassName
                     )}
                   >
                     {t(`heroBlock.slides.${slide.tKey}.title`)}
@@ -189,7 +218,7 @@ export const HeroBlock = () => {
                     <Link to={slide.buttonLink} tabIndex={-1}>
                       <Button
                         size="lg"
-                        className="w-full sm:w-auto flex items-center justify-center bg-secondary text-primary-900 hover:bg-secondary-500 transition-colors duration-300 h-14 px-10 text-sm font-black tracking-widest uppercase rounded-sm cursor-pointer shadow-lg"
+                        className="w-full sm:w-auto flex items-center justify-center bg-white text-primary-900 hover:bg-secondary-500 transition-colors duration-300 h-14 px-10 text-sm font-black tracking-widest uppercase rounded-sm cursor-pointer shadow-lg"
                       >
                         {t(`heroBlock.slides.${slide.tKey}.buttonText`)}
                       </Button>
@@ -234,7 +263,7 @@ export const HeroBlock = () => {
                 key={`desktop-${slide.id}`}
                 onClick={() => handleManualChange(index)}
                 className={cn(
-                  "relative flex flex-col items-center justify-center h-full min-w-40 p-0 border-none bg-transparent rounded-none transition-all duration-300 group cursor-pointer",
+                  "relative flex flex-1 min-w-24 flex-col items-center justify-center h-full px-2 py-0 border-none bg-transparent rounded-none transition-all duration-300 group cursor-pointer",
                   isActive ? "bg-white/5" : "hover:bg-white/5"
                 )}
               >

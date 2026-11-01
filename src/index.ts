@@ -51,10 +51,10 @@ export default {
           method: "POST",
           headers: resendHeaders,
           body: JSON.stringify({
-            from: `Corporate Portal <${env.RESEND_OWNER_EMAIL}>`,
+            from: `Info Desk <${env.RESEND_OWNER_EMAIL}>`,
             to: [env.RESEND_OWNER_EMAIL],
             reply_to: email,
-            subject: `Trade Inquiry: ${company} (${department})`,
+            subject: `New Inquiry: ${company} (${department})`,
             html: getOwnerEmailHtml(
               fullName,
               company,
@@ -69,7 +69,7 @@ export default {
           method: "POST",
           headers: resendHeaders,
           body: JSON.stringify({
-            from: `Meray Global <${env.RESEND_OWNER_EMAIL}>`,
+            from: `Rysgally Gün <${env.RESEND_OWNER_EMAIL}>`,
             to: [email],
             subject: localizedSubject,
             html: getAutoReplyHtml(firstName, user_lang),

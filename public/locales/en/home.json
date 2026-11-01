@@ -13,6 +13,12 @@
         "buttonText": "View Construction Services",
         "navLabel": "Build"
       },
+      "manufacture": {
+        "title": "ENGINEERING & MANUFACTURING",
+        "description": "Custom component manufacturing, reverse engineering, and dimensional verification supporting industrial projects and critical equipment.",
+        "buttonText": "Explore Manufacturing Services",
+        "navLabel": "Manufacture"
+      },
       "supply": {
         "title": "SUPPLY CHAIN EXCELLENCE",
         "description": "Strategic sourcing and equipment rentals ensuring timely, cost-effective acquisition of quality materials to keep operations moving.",

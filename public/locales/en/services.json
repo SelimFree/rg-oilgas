@@ -41,24 +41,24 @@
           "desc": "Comprehensive construction and maintenance for oil and gas processing plants."
         },
         {
-          "title": "Power Plant",
-          "desc": "Building and upgrading facilities for efficient energy production."
-        },
-        {
-          "title": "Gas Terminal",
-          "desc": "Specialized construction for gas storage and distribution hubs."
-        },
-        {
           "title": "Fertilizer Plant",
           "desc": "Infrastructure solutions for chemical and agricultural production."
         },
         {
-          "title": "Tank Farm",
-          "desc": "Design and construction of large-scale storage facilities."
+          "title": "Petrochemical Plant",
+          "desc": "Construction and maintenance of petrochemical processing facilities and supporting infrastructure."
         },
         {
-          "title": "LNG Trunk Line",
-          "desc": "Expertise in constructing pipelines for liquefied natural gas transport."
+          "title": "Power Plant",
+          "desc": "Building and upgrading facilities for efficient energy production."
+        },
+        {
+          "title": "Storage & Terminals",
+          "desc": "Design, construction, and maintenance of tank farms, gas storage, and distribution facilities."
+        },
+        {
+          "title": "Oilfield",
+          "desc": "Construction of oilfield surface facilities, including steel structures, piping systems, and storage infrastructure."
         }
       ],
       "workTitle": "Construction Work We Perform",
@@ -181,9 +181,13 @@
           "standards": ["API", "ASME"]
         },
         {
-          "title": "Custom Component Fabrication",
-          "desc": "We produce high-performance components tailored for oil and gas operations, including flanges, fittings, and specialized pipe sections. Using advanced CNC machining and material selection, such as high-grade alloys or corrosion-resistant steels, we craft components with full traceability, dimensional reports, and on-site delivery.",
-          "standards": ["API 6A"]
+          "title": "Precision Component Manufacturing",
+          "desc": "We manufacture custom components, replacement parts, and tooling using an extensive range of machining, fabrication, and inspection equipment. Advanced five-axis CNC machining and 3D laser scanning are key technologies within our broader workshop capabilities, supporting complex geometries, reverse engineering, and dimensional verification. Working from drawings, CAD models, or existing parts, we produce impellers, housings, turbine components, and other precision parts to your technical requirements.",
+          "standards": [
+            "Machining & Fabrication",
+            "5-Axis CNC",
+            "3D Laser Scanning"
+          ]
         }
       ]
     },
@@ -336,4 +340,3 @@
     "button": "Consult Our Engineers"
   }
 }
-

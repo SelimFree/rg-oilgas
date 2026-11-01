@@ -32,16 +32,15 @@ export const Footer = forwardRef<HTMLElement, FooterProps>(
 
             {/* Logo & Slogan Column */}
             <div className="md:col-span-2 lg:col-span-4">
-              <Link to="/" className="group flex items-center outline-none mb-6">
+              <div className="group flex items-center outline-none mb-6">
                 <Image
                   src={RgLogo}
                   aspectRatio="auto"
                   alt={t("navbar.logoAlt", "Rysgally Gün Logo")}
-                  // brightness-0 invert forces the image to render completely white
-                  className="h-16 object-contain object-left md:h-20 brightness-0 invert opacity-90 transition-opacity group-hover:opacity-100"
-                  containerClassName="bg-transparent flex w-full"
+                  className="h-16 object-contain object-left select-none md:h-20 brightness-0 invert opacity-90 transition-opacity group-hover:opacity-100"
+                  containerClassName="bg-transparent flex w-full select-none"
                 />
-              </Link>
+              </div>
               <Text
                 className="max-w-sm text-sm leading-relaxed text-gray-400 font-medium"
               >
