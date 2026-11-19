@@ -8,16 +8,16 @@
   "corporateHeritageBlock": {
     "subtitle": "Our Heritage",
     "title": "A Proud Turkmen Company",
-    "p1": "Rysgally Gün is committed to sustainable development within Turkmenistan’s energy sector. We provide cost-effective, high-quality solutions designed to address both current demands and future industry challenges.",
-    "p2": "By adhering strictly to rigorous local and international frameworks, our objective is absolute reliability. We minimize operational risks, eliminate unnecessary downtime, and ensure the safety and efficiency of every project we undertake.",
+    "p1": "Rysgally Gün is committed to sustainable development within Turkmenistan’s energy sector. As an Official API Monogram licensee and Grant Prideco compliant facility, we provide cost-effective, high-quality solutions designed to address both current demands and future industry challenges.",
+    "p2": "By adhering strictly to rigorous national and international frameworks, our objective is absolute reliability. We minimize operational risks, eliminate unnecessary downtime, and ensure the safety and efficiency of every project we undertake.",
     "gridTitle": "Regulatory & Engineering Compliance",
     "standards": {
-      "isoDesc": "Quality Management",
-      "apiDesc": "Petroleum Institute",
+      "apiDesc": "API Spec Q1 & 7-1",
+      "gpdsDesc": "Grant Prideco (NOV)",
+      "tdsDesc": "Turkmenstandartlary",
       "asmeDesc": "Mechanical Engineering",
       "leeaDesc": "Lifting Equipment",
-      "imcaDesc": "Marine Contractors",
-      "tdsDesc": "Turkmen Standards"
+      "imcaDesc": "Marine Contractors"
     }
   },
   "corporatePoliciesBlock": {
@@ -42,7 +42,7 @@
           },
           "4": {
             "title": "Regulatory Compliance",
-            "desc": "Adherence to Turkmen Dowlet Standartlary, API, ISO, OSHA, IMCA, and LEEA standards."
+            "desc": "Adherence to Main State Service \"Turkmenstandartlary\", API Spec Q1 & 7-1, Grant Prideco, OSHA, IMCA, and LEEA standards."
           }
         }
       },
@@ -89,6 +89,48 @@
             "desc": "Confidential whistleblowing channels ensure violations are reported and investigated safely."
           }
         }
+      }
+    }
+  },
+  "certificationsBlock": {
+    "subtitle": "Quality & Accreditations",
+    "titleLine1": "Internationally Verified",
+    "titleLine2": "Industry Compliance",
+    "description": "Our manufacturing facilities, quality management systems, and field operations are independently audited and licensed under international petroleum standards and national industrial safety regulations.",
+    "labels": {
+      "licenseNumber": "License / Cert No.",
+      "standard": "Specifications",
+      "validUntil": "Valid Through"
+    },
+    "actions": {
+      "inspect": "Inspect Certificate",
+      "viewDocument": "View Document",
+      "downloadPdf": "Download PDF",
+      "verifyOnline": "Verify Online"
+    },
+    "items": {
+      "apiMonogram": {
+        "badge": "Primary Industry Accreditation",
+        "title": "Certificate of Authority to Use the Official API Monogram",
+        "issuer": "American Petroleum Institute (API)",
+        "scope": "Authorized to apply the Official API Monogram to manufactured Drill Stem Subs and Drill Collars conforming to API Spec Q1 and API-7-1 requirements (QMS Exclusions: Design).",
+        "licenseNumber": "7-1-1878",
+        "standard": "API Spec Q1 / API-7-1",
+        "validUntil": "Nov 09, 2029"
+      },
+      "grantPrideco": {
+        "title": "Licensee Quality Program Compliance",
+        "issuer": "Grant Prideco (NOV)",
+        "scope": "Facility quality program surveyed and verified compliant with Grant Prideco licensee requirements; licensed to produce Grant Prideco connections under Technology License Agreement TLA No. 17-1733.",
+        "licenseNumber": "CR-374",
+        "validUntil": "Jun 11, 2028"
+      },
+      "turkmenstandartlary": {
+        "title": "Industrial Safety & Oil and Gas Operations License",
+        "issuer": "Main State Service \"Turkmenstandartlary\"",
+        "scope": "Licensed for industrial safety across oil and gas complex facilities (42.30.00, 09.10.30, 71.12.70): installation, commissioning, and repair of hazardous facility equipment, drill pipe maintenance and repair, and technical inspection of high-pressure vessels, pipelines, and lifting equipment.",
+        "licenseNumber": "1-5-12-654",
+        "validUntil": "Dec 05, 2028"
       }
     }
   },

@@ -11,9 +11,9 @@ interface StandardStat {
 }
 
 const standards: StandardStat[] = [
-  { tKey: 'iso' },
-  { tKey: 'api' },
-  { tKey: 'asme' },
+  { tKey: 'api71' },
+  { tKey: 'apiQ1' },
+  { tKey: 'gpds' },
 ];
 
 export const AboutTeaserBlock = () => {
@@ -101,7 +101,7 @@ export const AboutTeaserBlock = () => {
                     className="font-black text-white/4 leading-none tracking-tighter"
                     style={{ fontSize: 'clamp(60px, 8vw, 90px)' }}
                   >
-                    9001
+                    7-1
                   </span>
                 </div>
 

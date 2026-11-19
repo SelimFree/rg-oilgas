@@ -5,6 +5,7 @@ import { CorporateHeritageBlock } from "../components/blocks/CorporateHeritageBl
 import CompanyBgImage from "../assets/company/company_banner.png";
 import { CorporatePoliciesBlock } from "../components/blocks/CorporatePoliciesBlock";
 import { OperationalEthosBlock } from "../components/blocks/OperationalEthosBlock";
+import { CertificationsBlock } from "../components/blocks/CertificationsBlock";
 
 export default function CompanyPage() {
     const { t } = useTranslation("company");
@@ -20,6 +21,7 @@ export default function CompanyPage() {
             />
             <CorporateHeritageBlock />
             <CorporatePoliciesBlock />
+            <CertificationsBlock />
             <OperationalEthosBlock />
         </div>
     );

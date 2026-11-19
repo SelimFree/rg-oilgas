@@ -5,7 +5,7 @@ import { Text } from "../ui/Text";
 import { FadeIn } from "../utils/FadeIn";
 
 const STANDARDS = [
-  { id: "iso", label: "ISO 9001:2015", tKey: "isoDesc" },
+  { id: "gpds", label: "GPDS", tKey: "gpdsDesc" },
   { id: "api", label: "API", tKey: "apiDesc" },
   { id: "asme", label: "ASME", tKey: "asmeDesc" },
   { id: "leea", label: "LEEA", tKey: "leeaDesc" },
