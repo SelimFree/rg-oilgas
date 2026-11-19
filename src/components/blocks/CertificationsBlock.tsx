@@ -78,7 +78,7 @@ const certificates: CertificateItem[] = [
         id: 'grant-prideco',
         tKey: 'grantPrideco',
         code: 'NOV / GPDS',
-        orientation: 'portrait',
+        orientation: 'landscape',
         previewImage: GrantPridecoPreview,
         pdfUrl: '/documents/certificate-2.pdf',
         verifyUrl: 'https://wbtapps.nov.com/gp/facility-locator/index.html',
